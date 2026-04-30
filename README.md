@@ -1,143 +1,110 @@
-<h1 align="center">Hi 👋, I'm Hemanath Kumar</h1>
-<h3 align="center">AI Engineer | Machine Learning | Deep Learning | NLP | Backend Developer</h3>
+<div align="center">
 
-<p align="center">
-Computer Science Undergraduate passionate about Artificial Intelligence, Machine Learning, and building intelligent backend systems.
-</p>
+# Hemanath Kumar R
 
----
+**AI / ML Engineer · LLM & RAG Systems · Chennai, India**
 
-# 🚀 About Me
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/hemanath-kumar-r)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Hemanath-Kumar)
+[![Gmail](https://img.shields.io/badge/heamrvsh@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:heamrvsh@gmail.com)
 
-- 🎓 B.Tech – Information Technology
-- 🤖 Passionate about **AI, Deep Learning, NLP, and LLMs**
-- 🧠 Building **AI-powered applications and ML systems**
-- ⚙️ Experienced in **backend development with Django & REST APIs**
-- 📊 Interested in **data-driven systems and scalable AI pipelines**
+</div>
 
 ---
 
-# 🧠 AI / ML Focus
+AI/ML Engineer (Fresher) with hands-on experience building **RAG-based systems** and **Document AI pipelines** through academic projects and internships. Proficient in LLM orchestration, OCR extraction, vector search, and production-ready APIs.
 
-- Machine Learning
-- Deep Learning
-- Neural Networks
-- Natural Language Processing
-- Large Language Models
-- Retrieval Augmented Generation (RAG)
+- 🎓 B.Tech in Information Technology — Meenakshi College of Engineering (Anna University), Apr 2026 · CGPA: 7.78
+- 📍 Chennai, India
+- 🔍 Open to **AI/ML Engineer** and **LLM/GenAI Engineer** roles
+- 🌱 Currently deepening: Fine-tuning (LoRA/QLoRA), Agentic RAG, MLOps
 
 ---
 
-# 🛠️ Tech Stack
+## Tech Stack
 
-### 👨‍💻 Programming
-![Python](https://img.shields.io/badge/Python-blue?logo=python)
-![JavaScript](https://img.shields.io/badge/JavaScript-yellow?logo=javascript)
-![SQL](https://img.shields.io/badge/SQL-orange?logo=mysql)
-![HTML](https://img.shields.io/badge/HTML-red?logo=html5)
-![CSS](https://img.shields.io/badge/CSS-blue?logo=css3)
+**Languages**
+`Python` `SQL`
 
-### 🤖 AI / ML
-![PyTorch](https://img.shields.io/badge/PyTorch-red?logo=pytorch)
-![Scikit Learn](https://img.shields.io/badge/Scikit--Learn-orange?logo=scikitlearn)
-![Pandas](https://img.shields.io/badge/Pandas-purple?logo=pandas)
-![NumPy](https://img.shields.io/badge/NumPy-blue?logo=numpy)
+**AI / ML**
+`LangChain` `LangGraph` `PyTorch` `Hugging Face Transformers` `Scikit-learn` `RAG` `Fine-tuning (LoRA / QLoRA)`
 
-### ⚙️ Backend
-![Django](https://img.shields.io/badge/Django-green?logo=django)
-![Django REST](https://img.shields.io/badge/DRF-red?logo=django)
+**Backend & APIs**
+`FastAPI` `Django` `Django REST Framework`
 
-### 🧰 Tools
-![Git](https://img.shields.io/badge/Git-red?logo=git)
-![GitHub](https://img.shields.io/badge/GitHub-black?logo=github)
-![VS Code](https://img.shields.io/badge/VSCode-blue?logo=visualstudiocode)
+**Tools & Infra**
+`Docker` `ChromaDB` `Git`
+
+**Concepts**
+`Prompt Engineering` `Vector Databases` `Semantic Search` `Agentic Workflows` `LLM Security` `Prompt Injection Defense` `PII Anonymization` `OCR Pipelines` `REST APIs`
 
 ---
 
-# 📌 AI Projects
+## Experience
 
-## 🧠 AI Medical Report Analysis System
+**Python Developer Intern** · ROIxport Quicklytixs Pvt. Ltd., Chennai &nbsp;`Jun – Jul 2025`
+- Built a multi-engine OCR pipeline (PaddleOCR, Tesseract, TrOCR) processing 500+ invoices, reducing manual data entry effort by **80%**
+- Integrated a local LLM with OCR output for structured field extraction with secure on-premise processing
+- Built 3 REST API endpoints over the extraction pipeline with SQL storage for downstream reporting tools
 
-AI-powered medical report processing pipeline.
-
-**Tech:** Python, Django, OCR, LLM, RAG
-
-Features:
-
-- OCR pipeline for extracting lab data
-- LLM-based medical report parsing
-- Vector embeddings for document search
-- Natural language querying of patient records
-- Django REST APIs for AI integration
+**Data Analyst Intern** · NSIC (National Small Industries Corporation), Chennai &nbsp;`Oct – Nov 2025`
+- Performed EDA, data cleaning, and built classification models using Scikit-learn with feature engineering and cross-validation on structured business datasets
 
 ---
 
-## 📉 Customer Churn Prediction (ANN)
+## Projects
 
-Machine learning model to predict customer churn.
+### 🏥 AI-Powered Medical Report Analysis & Health Risk Prediction
+`LangChain` `RAG` `ChromaDB` `Django REST Framework` `Scikit-learn` `Qwen LLM` `Docker`
 
-**Tech:** Python, PyTorch, Scikit-Learn
-
-Features:
-
-- Artificial Neural Network model
-- Data preprocessing and feature engineering
-- Feature scaling and categorical encoding
-- Achieved ~85% prediction accuracy
+End-to-end Document AI system — OCR extracts structured lab results from medical reports into a ChromaDB vector store. RAG pipeline with `all-MiniLM-L6-v2` enables semantic search and LangChain prompt templates generate per-test AI health summaries. Django REST APIs orchestrate report ingestion, ML inference (logistic regression heart risk model), and LLM summarisation. Fully containerized with Docker.
 
 ---
 
-# 💼 Experience
+### 🔒 AI Support Ticket Classifier with LangGraph Security Pipeline
+`LangGraph` `LangChain` `Python`
 
-### Python Developer Intern  
-ROIxport Quicklytixs Pvt Ltd – Chennai
-
-- Built OCR pipelines using **PaddleOCR, Tesseract, TrOCR**
-- Integrated **LLMs for data extraction**
-- Developed backend APIs and automated workflows
-
-### Data Analyst Intern  
-NSIC – National Small Industries Corporation
-
-- Data cleaning and analysis using **Pandas & NumPy**
-- Performed **EDA and predictive modeling**
-- Built ML models for business insights
+Stateful LangGraph DAG with conditional routing orchestrating PII anonymization, LLM security guardrail, and ticket classification nodes in a single pipeline. LLM Guard node (zero-shot classification) intercepts prompt injection and data extraction attacks. PII Reduction node masks sensitive data prior to any external LLM API call — GDPR/HIPAA-compliant. Structured JSON output (category, priority, sentiment, confidence score) enforced via LangChain prompt templates.
 
 ---
 
-# 📊 GitHub Stats
+### 📉 Customer Churn Prediction using Artificial Neural Networks
+`PyTorch` `Scikit-learn` `Pandas` `NumPy`
 
-<p align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=Hemanath-Kumar&show_icons=true&theme=tokyonight" />
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hemanath-Kumar&layout=compact&theme=tokyonight" />
-
-</p>
+PyTorch ANN for binary churn prediction achieving **85% test accuracy**. Full ML pipeline covering preprocessing, categorical encoding, feature scaling, model training, and real-time inference.
 
 ---
 
-# 🔥 Current Focus
+## Certifications
 
-- Deep Learning with **PyTorch**
-- Transformer architectures
-- Retrieval Augmented Generation (RAG)
-- AI-powered backend systems
-- Production-ready ML pipelines
-
----
-
-# 🌐 Connect With Me
-
-LinkedIn  
-https://www.linkedin.com/in/hemanath-kumar-r
-
-GitHub  
-https://github.com/Hemanath-Kumar
-
-Email  
-heamrvsh@gmail.com
+| Certification | Issuer |
+|---|---|
+| Prompt Design in Vertex AI | Google |
+| SQL (Intermediate) | HackerRank |
+| Data Science, ML, Deep Learning & NLP Bootcamp | Udemy |
 
 ---
 
-⭐ If you like my work, consider starring my repositories!
+## Current Focus
+
+| Area | Details |
+|---|---|
+| LLM Fine-tuning | LoRA / QLoRA on Mistral-7B, Llama |
+| Agentic RAG | Multi-step retrieval with LangGraph |
+| MLOps | Docker, model serving, experiment tracking |
+| Transformer Internals | Building from scratch with PyTorch |
+
+---
+
+## GitHub Stats
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Hemanath-Kumar&show_icons=true&theme=tokyonight&hide_border=true" height="160" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hemanath-Kumar&layout=compact&theme=tokyonight&hide_border=true" height="160" />
+</div>
+
+---
+
+<div align="center">
+  <sub>Tamil (Native) · English (Professional Proficiency) · Open to AI/ML roles</sub>
+</div>
